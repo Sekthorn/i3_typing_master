@@ -3,9 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Midterm IPE Result</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            background: #fff;
+        }
+        .header {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .header-logos {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 60px;
+        }
+        .header-logos img {
+            width: 120px;
+            height: auto;
+        }
+        .khmer {
+            font-family: 'Khmer OS', 'Moul', serif;
+            font-size: 20px;
+        }
+        .academic-year {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        .midterm-title {
+            font-weight: bold;
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        .class-info {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+        .class-info .class-name {
+            color: #0074cc;
+            text-decoration: underline;
+        }
+        table {
+            width: 80%;
+            margin: 0 auto 40px auto;
+            border-collapse: collapse;
+            font-size: 18px;
+        }
+        th {
+            background: #002060;
+            color: #fff;
+            padding: 10px;
+            border: 1px solid #002060;
+        }
+        td {
+            border: 1px solid #002060;
+            padding: 10px;
+            text-align: center;
+        }
+        .student-row {
+            background: #22b14c;
+            color: #fff;
+            font-weight: bold;
+        }
+        .score-dots {
+            letter-spacing: 3px;
+        }
+        .lecturer {
+            margin-left: 40px;
+            margin-top: 40px;
+            font-size: 16px;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="header">
+        <div class="header-logos">
+            <img src="ITC.png" alt="ITC">
+            <div>
+                <div class="khmer">ព្រះរាជាណាចក្រកម្ពុជា
+ជាតិ  សាសនា  ព្រះមហាក្សត្រ 
+</div>
+                <div class="khmer"></div>
+                <div class="academic-year">Academic year 2025-2026</div>
+            </div>
+            <img src="GIC.png" alt="GIC.png" style="transform: scaleX(-1);">
+        </div>
+        <div class="midterm-title">Midterm IPE</div>
+        <div class="class-info">CLASS: I3 <span class="class-name">GIC (C)</span></div>
+    </div>
+    <table>
+        <tr>
+            <th>Name of Student</th>
+            <th>ID of Student</th>
+            <th>Score</th>
+        </tr>
+        <tr class="student-row">
+            <td>SEK THORN</td>
+            <td>e20220341</td>
+            <td class="score-dots">……………</td>
+        </tr>
+    </table>
+    <div class="lecturer">
+        Lecturer: Mr. Ta Tongsreng
+    </div>
 </body>
 </html>
