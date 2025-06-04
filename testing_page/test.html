@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Master Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Typing Master</h1>
+            <div class="timer" id="timer">60</div>
+        </header>
+        
+        <main>
+            <div class="test-container">
+                <div class="text-display" id="text-display"></div>
+                <textarea id="input-field" class="input-field" placeholder="Start typing when ready..."></textarea>
+                
+                <div class="stats">
+                    <div class="stat">
+                        <span id="wpm">0</span>
+                        <label>WPM</label>
+                    </div>
+                    <div class="stat">
+                        <span id="accuracy">100%</span>
+                        <label>Accuracy</label>
+                    </div>
+                </div>
+                
+                <button id="restart-btn" class="btn">Restart Test</button>
+            </div>
+        </main>
+    </div>
+    
+    <script src="test.js"></script>
+</body>
+</html>

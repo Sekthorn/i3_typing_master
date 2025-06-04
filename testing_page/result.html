@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Test Results</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container results-container">
+        <header>
+            <h1>Your Results</h1>
+        </header>
+        
+        <main>
+            <div class="results-card">
+                <h2>Latest Typing Test</h2>
+                
+                <div class="results-stats">
+                    <div class="result-item">
+                        <div class="result-value" id="final-wpm">0</div>
+                        <div class="result-label">Words per Minute</div>
+                    </div>
+                    
+                    <div class="result-item">
+                        <div class="result-value" id="final-accuracy">0%</div>
+                        <div class="result-label">Accuracy</div>
+                    </div>
+                    
+                    <div class="result-item">
+                        <div class="result-value" id="final-time">60s</div>
+                        <div class="result-label">Time</div>
+                    </div>
+                </div>
+                
+                <div class="result-details">
+                    <p>Characters typed: <span id="chars-typed">0</span></p>
+                    <p>Correct characters: <span id="correct-chars">0</span></p>
+                    <p>Errors: <span id="error-count">0</span></p>
+                </div>
+                
+                <button id="try-again-btn" class="btn">Try Again</button>
+            </div>
+            
+            <div class="results-history">
+                <div class="history-header">
+                    <h2>Your History</h2>
+                    <button id="clear-history-btn" class="btn btn-small">Clear History</button>
+                </div>
+                
+                <div class="results-list" id="results-list">
+                    <!-- Results will be inserted here by JavaScript -->
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <script src="result.js"></script>
+</body>
+</html>
